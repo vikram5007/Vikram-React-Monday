@@ -1,0 +1,29 @@
+@font-face {
+    font-family: akira;
+    src: url('./fonts/akira_expanded/Akira\ Expanded\ Demo.otf');
+}
+
+@font-face {
+    font-family: cursivee;
+    src: url(./fonts/delight_sunset/Delight\ Sunset.ttf);
+}
+
+#h3words {
+    font-family: cursivee;
+    font-size: 75px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.heading {
+    font-family: akira;
+    text-align: center;
+}
+
+#meaning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:akira;
+    font-size: 35px;
+}

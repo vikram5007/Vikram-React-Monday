@@ -1,0 +1,42 @@
+@font-face {
+    font-family: akira;
+    src: url('./fonts/akira_expanded/Akira\ Expanded\ Demo.otf');
+}
+
+.cont {
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.li {
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.li input {
+    position: relative;
+    left: -30px;
+    scale: 2.5;
+}
+
+.li label {
+    font-family: akira;
+    font-size: 35px;
+    text-align: center;
+    padding-right: 55px;
+    display: inline-block;
+    width:90%;
+}
+
+.li svg{
+    color: rgb(0, 183, 255);
+    transition: all .5s;
+}
+
+svg:hover{
+    color:red;
+}

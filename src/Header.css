@@ -1,0 +1,11 @@
+#heading{
+    text-align: center;
+    font-family:styled ;
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: styled;
+    src: url('./fonts/delight_sunset/Delight\ Sunset.ttf');
+}
