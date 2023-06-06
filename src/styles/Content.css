@@ -1,9 +1,11 @@
 @font-face {
     font-family: akira;
-    src: url('./fonts/akira_expanded/Akira\ Expanded\ Demo.otf');
+    src: url('/src/fonts/akira_expanded/Akira\ Expanded\ Demo.otf');
 }
 
 .cont {
+    position: relative;
+    top:30px;
     list-style-type: none;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

@@ -1,11 +1,11 @@
 @font-face {
     font-family: akira;
-    src: url('./fonts/akira_expanded/Akira\ Expanded\ Demo.otf');
+    src: url('/src/fonts/akira_expanded/Akira\ Expanded\ Demo.otf');
 }
 
 @font-face {
     font-family: cursivee;
-    src: url(./fonts/delight_sunset/Delight\ Sunset.ttf);
+    src: url('/src/fonts/delight_sunset/Delight\ Sunset.ttf');
 }
 
 #h3words {

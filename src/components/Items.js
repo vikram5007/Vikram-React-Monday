@@ -1,13 +1,8 @@
-import React from "react";
-import './Content.css';
+import React from "react"
 import { MdDeleteSweep } from "react-icons/md";
-function Content({items,handleCheck,handleDelete}) {
-   
-return (
-    <div>
-     
-        <h3 id="h3"style={{display:"none" , textAlign:"center",fontSize:"25px"}}> Your List Is Empty </h3>
-        <ul className="cont">
+const Items = ({items,handleCheck,handleDelete}) => {
+  return (
+    <ul className="cont">
             {items.map((item)=>(
 
             <li className="li" key={item.id}>
@@ -25,9 +20,7 @@ return (
             </li>
             ))}
         </ul>
-    </div>
-)
-
+  )
 }
 
-export default Content;
+export default Items

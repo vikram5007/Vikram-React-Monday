@@ -1,0 +1,61 @@
+@font-face {
+    font-family:nexa;
+    src: url('../fonts/nexa/Nexa-Heavy.ttf');
+}
+
+body{
+    font-family: nexa;
+}
+
+.former{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.former label{
+    font-size: 45px;
+}
+.former input{
+    width:80%;
+    border:none;
+    outline: none;
+    height:40px;
+    font-family: nexa;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.former input:focus{
+    box-shadow: rgba(77, 77, 77, 0.952) 0px 3px 15px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.former svg{
+    position: relative;
+    top:25px;
+    color:rgb(255, 255, 255);
+    background-color: none;
+    scale:3;
+    outline: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button{
+    background-color:none;
+    outline: none;
+    appearance: none;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+svg:hover{
+ color:rgb(30, 255, 0);
+}
+
+input::placeholder{
+    font-family: nexa;
+    text-align: center;
+}

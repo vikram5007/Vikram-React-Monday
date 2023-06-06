@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import img1 from './images/1212007.jpg';
 import img2 from './images/1316514.jpeg';
 import img3 from './images/1316633.jpeg';
-import './Image.css'
+import '../styles/Image.css'
 
 var img_Arr = [img1, img2, img3];
 

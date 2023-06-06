@@ -1,0 +1,20 @@
+.searcher{
+    position: relative;
+    top:45px;
+    display: flex;
+    justify-content: center;
+}
+
+.searcher input {
+    width:50%;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-family: nexa;
+    border-radius:10px;
+    transition: all .5s;
+}
+
+.searcher input:focus {
+    box-shadow: rgba(77, 77, 77, 0.952) 0px 3px 15px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
